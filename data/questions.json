@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the name of the framework proposed by the authors to combine agentic and latent visual reasoning methods?",
+    "ground_truth": "ATLAS",
+    "arxiv_id": "2605.15198v1",
+    "paper_title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both"
+  },
+  {
+    "question": "What is the main contribution of the paper 'Primordial Black Hole from Tensor-induced Density Fluctuation: First-order Phase Transitions and Domain Walls'?",
+    "ground_truth": "We present a novel \\textit{gauge-invariant and minimal} formation mechanism of primordial black holes (PBHs) in first-order phase transition (FOPT) and domain walls (DW) separately. This is based on the first-order tensor perturbations, generated during FOPT from bubble collisions \\& sound waves, and from DW annihilation, sourcing curvature, at second-order in perturbation theory. We show that the PBH formation implies \\textit{model-independent constraints} on FOPT parameters ($\u03b2/H, \u03b1, T_{\\star}",
+    "arxiv_id": "2605.15197v1",
+    "paper_title": "Primordial Black Hole from Tensor-induced Density Fluctuation: First-order Phase Transitions and Domain Walls"
+  },
+  {
+    "question": "What is the maximum PSNR improvement achieved by RefDecoder over the unconditional baselines?",
+    "ground_truth": "+2.1dB",
+    "arxiv_id": "2605.15196v1",
+    "paper_title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding"
+  },
+  {
+    "question": "What was the improvement in camera estimation accuracy on Sintel achieved by VGGT-$\u03a9$?",
+    "ground_truth": "77%",
+    "arxiv_id": "2605.15195v1",
+    "paper_title": "VGGT-$\u03a9$"
+  },
+  {
+    "question": "What is the main contribution of the paper regarding QCA-refined realizations?",
+    "ground_truth": "The paper constructs a lattice model that provides a QCA-refined realization for any weakly integral fusion category symmetry on a tensor product Hilbert space.",
+    "arxiv_id": "2605.15194v1",
+    "paper_title": "Non-Invertible Symmetries on Tensor-Product Hilbert Spaces and Quantum Cellular Automata"
+  },
+  {
+    "question": "What is the parameterization used for the background in the analysis of the mechanism?",
+    "ground_truth": "\u03f5(N) \u221d 1/N^p, where N is the number of e-folds before the end of inflation.",
+    "arxiv_id": "2605.15192v1",
+    "paper_title": "Isocurvature-Free QCD Axion Dark Matter from Inflaton-Driven Early QCD: the Necessity of Inflationary Plateaus"
+  },
+  {
+    "question": "What key mechanisms governing active droplets are identified in the paper?",
+    "ground_truth": "The paper identifies the key mechanisms governing active droplets as self-driven flows, modified interfacial stresses, and dynamic contact line behavior.",
+    "arxiv_id": "2605.15191v1",
+    "paper_title": "From Coffee Rings to Self-Driven Assembly: Active Matter Enabled Design of Drying Droplets"
+  },
+  {
+    "question": "What is the proposed method introduced in the paper?",
+    "ground_truth": "Real-time Autoregressive Video Extrapolation Network (RAVEN)",
+    "arxiv_id": "2605.15190v1",
+    "paper_title": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO"
+  },
+  {
+    "question": "What telescope's capabilities are paired with strong gravitational lensing to observe distant sources?",
+    "ground_truth": "James Webb Space Telescope (JWST)",
+    "arxiv_id": "2605.15189v1",
+    "paper_title": "Strong Gravitational Lensing with the James Webb Space Telescope"
+  },
+  {
+    "question": "What was the best agent's accuracy reported in FutureSim?",
+    "ground_truth": "25%",
+    "arxiv_id": "2605.15188v1",
+    "paper_title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents"
+  },
+  {
+    "question": "What is the name of the curated dataset built using Articraft?",
+    "ground_truth": "Articraft-10K",
+    "arxiv_id": "2605.15187v1",
+    "paper_title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation"
+  },
+  {
+    "question": "What dataset did the authors construct for their experiments?",
+    "ground_truth": "DeltaScene Dataset",
+    "arxiv_id": "2605.15186v1",
+    "paper_title": "VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction"
+  },
+  {
+    "question": "What is the name of the quantitative framework introduced for auditing geometric coherence in generated videos?",
+    "ground_truth": "PDI-Bench (Perspective Distortion Index)",
+    "arxiv_id": "2605.15185v1",
+    "paper_title": "Quantitative Video World Model Evaluation for Geometric-Consistency"
+  },
+  {
+    "question": "What dataset was used in Experiment 1 of the study?",
+    "ground_truth": "LongMemEval",
+    "arxiv_id": "2605.15184v1",
+    "paper_title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search"
+  },
+  {
+    "question": "What is the proposed metric introduced in the paper for measuring similarity between tensor-based models?",
+    "ground_truth": "tensor similarity",
+    "arxiv_id": "2605.15183v1",
+    "paper_title": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability"
+  },
+  {
+    "question": "What is the key contribution of the proposed method Warp-as-History in the context of camera-controlled video generation?",
+    "ground_truth": "Warp-as-History reveals a non-trivial zero-shot capability of a frozen video generation model to follow camera trajectories without any training, architectural modification, or test-time optimization.",
+    "arxiv_id": "2605.15182v1",
+    "paper_title": "Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video"
+  },
+  {
+    "question": "What is the main contribution of the proposed framework in the paper?",
+    "ground_truth": "The proposed framework yields more coherent and reliable edits than single-step or rule-based multistep baselines by tightly coupling planning with reward driven execution.",
+    "arxiv_id": "2605.15181v1",
+    "paper_title": "From Plans to Pixels: Learning to Plan and Orchestrate for Open-Ended Image Editing"
+  },
+  {
+    "question": "What procedure do the authors introduce to define an asymptotic average of a function of N?",
+    "ground_truth": "Mellin averaging",
+    "arxiv_id": "2605.15180v1",
+    "paper_title": "Wormholes and Averaging over N"
+  },
+  {
+    "question": "What is the reported velocity divergence achieved by the model evaluated post-hoc in FP64?",
+    "ground_truth": "\u223c2.8 \u00d7 10\u221210",
+    "arxiv_id": "2605.15179v1",
+    "paper_title": "Eradicating Negative Transfer in Multi-Physics Foundation Models via Sparse Mixture-of-Experts Routing"
+  },
+  {
+    "question": "What is the parameter count of the SANA-WM model introduced in the paper?",
+    "ground_truth": "2.6B",
+    "arxiv_id": "2605.15178v1",
+    "paper_title": "SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer"
+  },
+  {
+    "question": "What is the version of the Dimensional Reduction algorithm (DRalgo) mentioned in the paper?",
+    "ground_truth": "v1.5.0",
+    "arxiv_id": "2605.15176v1",
+    "paper_title": "Matching higher-dimensional operators at finite temperature for general models"
+  },
+  {
+    "question": "What was the increase in effective Codeforces Elo for Gemini 3.1 Pro after using OpenDeepThink?",
+    "ground_truth": "+405 points",
+    "arxiv_id": "2605.15177v1",
+    "paper_title": "OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation"
+  },
+  {
+    "question": "What is the reported typical signal strength for the ISM derived in the paper?",
+    "ground_truth": "10^{-15} Jy sr^{-1} \u00b7 ma/eV, with a local, cosmological upper bound of 10^{-8} Jy sr^{-1} \u00b7 ma/eV.",
+    "arxiv_id": "2605.15175v1",
+    "paper_title": "Detecting the Axion-Photon Conversion Background"
+  },
+  {
+    "question": "What is the name of the practical C++ implementation of the new algorithms proposed in the paper?",
+    "ground_truth": "HybridSCALE",
+    "arxiv_id": "2605.15173v1",
+    "paper_title": "Hybrid Sketching Methods for Dynamic Connectivity on Sparse Graphs"
+  },
+  {
+    "question": "What is the key insight that the authors present regarding Transformer-based LLMs in the context of backdoor attacks?",
+    "ground_truth": "The key insight is that Transformer-based LLMs necessarily encode token positions to process ordered sequences, allowing length-correlated positional structure to be used as an effective non-content trigger signal.",
+    "arxiv_id": "2605.15172v1",
+    "paper_title": "MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs"
+  }
+]

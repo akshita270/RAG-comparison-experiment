@@ -1,0 +1,1789 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "paper",
+      "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
+      "arxiv_id": "2605.15198v1",
+      "abstract": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computationally expensive and architecturally non-trivial. Recent alternatives include agentic reasoning through code or tool calls, and latent reasoning with learnable hidden embeddings. However, agentic methods incur context-switching latency from external execution, whi",
+      "id": "paper:2605.15198v1"
+    },
+    {
+      "type": "method",
+      "name": "ATLAS",
+      "id": "method:atlas"
+    },
+    {
+      "type": "method",
+      "name": "Latent-Anchored GRPO (LA-GRPO)",
+      "id": "method:latent-anchored grpo (la-grpo)"
+    },
+    {
+      "type": "task",
+      "name": "visual reasoning",
+      "id": "task:visual reasoning"
+    },
+    {
+      "type": "paper",
+      "title": "Primordial Black Hole from Tensor-induced Density Fluctuation: First-order Phase Transitions and Domain Walls",
+      "arxiv_id": "2605.15197v1",
+      "abstract": "We present a novel \\textit{gauge-invariant and minimal} formation mechanism of primordial black holes (PBHs) in first-order phase transition (FOPT) and domain walls (DW) separately. This is based on the first-order tensor perturbations, generated during FOPT from bubble collisions \\& sound waves, and from DW annihilation, sourcing curvature, at second-order in perturbation theory. We show that the PBH formation implies \\textit{model-independent constraints} on FOPT parameters ($\u03b2/H, \u03b1, T_{\\star}",
+      "id": "paper:2605.15197v1"
+    },
+    {
+      "type": "method",
+      "name": "gauge-invariant formation mechanism",
+      "id": "method:gauge-invariant formation mechanism"
+    },
+    {
+      "type": "method",
+      "name": "tensor perturbations",
+      "id": "method:tensor perturbations"
+    },
+    {
+      "type": "method",
+      "name": "semi-analytical formulae for tensor-induced density spectrum",
+      "id": "method:semi-analytical formulae for tensor-induced density spectrum"
+    },
+    {
+      "type": "task",
+      "name": "primordial black hole formation",
+      "id": "task:primordial black hole formation"
+    },
+    {
+      "type": "task",
+      "name": "first-order phase transition analysis",
+      "id": "task:first-order phase transition analysis"
+    },
+    {
+      "type": "task",
+      "name": "domain wall analysis",
+      "id": "task:domain wall analysis"
+    },
+    {
+      "type": "paper",
+      "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
+      "arxiv_id": "2605.15196v1",
+      "abstract": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain unconditional. We observe that this architectural asymmetry leads to significant loss of detail and inconsistency relative to the input image. To address this, we argue that the decoder requires equal conditioning to preserve structural integrity. We introduce RefDecoder, a refere",
+      "id": "paper:2605.15196v1"
+    },
+    {
+      "type": "dataset",
+      "name": "Inter4K",
+      "id": "dataset:inter4k"
+    },
+    {
+      "type": "dataset",
+      "name": "WebVid",
+      "id": "dataset:webvid"
+    },
+    {
+      "type": "dataset",
+      "name": "Large Motion",
+      "id": "dataset:large motion"
+    },
+    {
+      "type": "dataset",
+      "name": "VBench I2V",
+      "id": "dataset:vbench i2v"
+    },
+    {
+      "type": "method",
+      "name": "RefDecoder",
+      "id": "method:refdecoder"
+    },
+    {
+      "type": "method",
+      "name": "latent diffusion models",
+      "id": "method:latent diffusion models"
+    },
+    {
+      "type": "method",
+      "name": "reference-conditioned video VAE decoder",
+      "id": "method:reference-conditioned video vae decoder"
+    },
+    {
+      "type": "baseline",
+      "name": "unconditional baselines",
+      "id": "baseline:unconditional baselines"
+    },
+    {
+      "type": "baseline",
+      "name": "Wan 2.1",
+      "id": "baseline:wan 2.1"
+    },
+    {
+      "type": "baseline",
+      "name": "VideoVAE+",
+      "id": "baseline:videovae+"
+    },
+    {
+      "type": "task",
+      "name": "video generation",
+      "id": "task:video generation"
+    },
+    {
+      "type": "task",
+      "name": "style transfer",
+      "id": "task:style transfer"
+    },
+    {
+      "type": "task",
+      "name": "video editing refinement",
+      "id": "task:video editing refinement"
+    },
+    {
+      "type": "paper",
+      "title": "VGGT-$\u03a9$",
+      "arxiv_id": "2605.15195v1",
+      "abstract": "Recent feed-forward reconstruction models, such as VGGT, have proven competitive with traditional optimization-based reconstructors while also providing geometry-aware features useful for other tasks. Here, we show that the quality of these models scales predictably with model and data size. We do so by introducing VGGT-$\u03a9$, which substantially improves reconstruction accuracy, efficiency, and capabilities for both static and dynamic scenes. To enable training this model at an unprecedented scal",
+      "id": "paper:2605.15195v1"
+    },
+    {
+      "type": "dataset",
+      "name": "Sintel",
+      "id": "dataset:sintel"
+    },
+    {
+      "type": "method",
+      "name": "VGGT-$\u03a9$",
+      "id": "method:vggt-$\u03c9$"
+    },
+    {
+      "type": "method",
+      "name": "self-supervised learning protocol",
+      "id": "method:self-supervised learning protocol"
+    },
+    {
+      "type": "method",
+      "name": "register attention",
+      "id": "method:register attention"
+    },
+    {
+      "type": "baseline",
+      "name": "VGGT",
+      "id": "baseline:vggt"
+    },
+    {
+      "type": "task",
+      "name": "reconstruction of static and dynamic scenes",
+      "id": "task:reconstruction of static and dynamic scenes"
+    },
+    {
+      "type": "task",
+      "name": "camera estimation",
+      "id": "task:camera estimation"
+    },
+    {
+      "type": "task",
+      "name": "vision-language-action models",
+      "id": "task:vision-language-action models"
+    },
+    {
+      "type": "paper",
+      "title": "Non-Invertible Symmetries on Tensor-Product Hilbert Spaces and Quantum Cellular Automata",
+      "arxiv_id": "2605.15194v1",
+      "abstract": "We investigate realizations of (1+1)-dimensional fusion category symmetries on tensor-product Hilbert spaces, allowing for mixing with quantum cellular automata (QCAs). It was argued recently that any such realizable symmetry must be weakly integral. We develop a systematic analysis of QCA-refined realizations of fusion categories and prove two statements. First, we show that, under certain physical assumptions on defects, any QCA-refined realization has QCA and symmetry-operator indices determi",
+      "id": "paper:2605.15194v1"
+    },
+    {
+      "type": "method",
+      "name": "QCA-refined realization",
+      "id": "method:qca-refined realization"
+    },
+    {
+      "type": "method",
+      "name": "lattice model for weakly integral fusion categories",
+      "id": "method:lattice model for weakly integral fusion categories"
+    },
+    {
+      "type": "paper",
+      "title": "Isocurvature-Free QCD Axion Dark Matter from Inflaton-Driven Early QCD: the Necessity of Inflationary Plateaus",
+      "arxiv_id": "2605.15192v1",
+      "abstract": "A direct coupling between the inflaton and Standard Model gluons can dynamically raise the QCD confinement scale during inflation, making the axion temporarily heavy and suppressing axion isocurvature perturbations. As inflation proceeds, the confinement scale relaxes, the axion becomes light, and late-time de Sitter fluctuations can generate the observed dark matter abundance. We analyze this mechanism without specifying an inflationary potential, instead parametrizing the background by $\u03b5(N) \\",
+      "id": "paper:2605.15192v1"
+    },
+    {
+      "type": "method",
+      "name": "analytical analysis of inflationary models",
+      "id": "method:analytical analysis of inflationary models"
+    },
+    {
+      "type": "method",
+      "name": "parametrization of background by \u03f5(N) \u221d1/N p",
+      "id": "method:parametrization of background by \u03f5(n) \u221d1/n p"
+    },
+    {
+      "type": "paper",
+      "title": "From Coffee Rings to Self-Driven Assembly: Active Matter Enabled Design of Drying Droplets",
+      "arxiv_id": "2605.15191v1",
+      "abstract": "Evaporating colloidal droplets have long been used as model systems to understand capillarity, interfacial transport, and particle assembly, most prominently through the coffee ring effect. In classical descriptions, suspended particles are treated as passive tracers carried by evaporation-driven capillary flow, with additional influence from Marangoni stresses, wettability, and contact line pinning. More recent studies, however, show that this picture changes significantly when the particles th",
+      "id": "paper:2605.15191v1"
+    },
+    {
+      "type": "paper",
+      "title": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO",
+      "arxiv_id": "2605.15190v1",
+      "abstract": "Causal autoregressive video diffusion models support real-time streaming generation by extrapolating future chunks from previously generated content. Distilling such generators from high-fidelity bidirectional teachers yields competitive few-step models, yet a persistent gap between the history distributions encountered during training and those arising at inference constrains generation quality over long horizons. We introduce the Real-time Autoregressive Video Extrapolation Network (RAVEN), a ",
+      "id": "paper:2605.15190v1"
+    },
+    {
+      "type": "method",
+      "name": "Real-time Autoregressive Video Extrapolation Network (RAVEN)",
+      "id": "method:real-time autoregressive video extrapolation network (raven)"
+    },
+    {
+      "type": "method",
+      "name": "Consistency-model Group Relative Policy Optimization (CM-GRPO)",
+      "id": "method:consistency-model group relative policy optimization (cm-grpo)"
+    },
+    {
+      "type": "baseline",
+      "name": "causal video distillation baselines",
+      "id": "baseline:causal video distillation baselines"
+    },
+    {
+      "type": "task",
+      "name": "video extrapolation",
+      "id": "task:video extrapolation"
+    },
+    {
+      "type": "paper",
+      "title": "Strong Gravitational Lensing with the James Webb Space Telescope",
+      "arxiv_id": "2605.15189v1",
+      "abstract": "The theory of General Relativity predicts that, since massive bodies curve spacetime, light from a distant source would be deflected by a foreground massive object -- a phenomenon known as \\emph{Gravitational Lensing}. Historically, the strength of deflection of light from background stars by the sun, during the 1919 solar eclipse, supplied one of the first proofs for the theory of General Relativity. However, it is only in the last few decades, with the advent of the Hubble Space Telescope and ",
+      "id": "paper:2605.15189v1"
+    },
+    {
+      "type": "paper",
+      "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
+      "arxiv_id": "2605.15188v1",
+      "abstract": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we propose building grounded simulations that replay real-world events in the order they occurred. We build FutureSim, where agents forecast world events beyond their knowledge cutoff while interacting with a chronological replay of the world: real news articles arriving and questions resolving over t",
+      "id": "paper:2605.15188v1"
+    },
+    {
+      "type": "dataset",
+      "name": "FutureSim",
+      "id": "dataset:futuresim"
+    },
+    {
+      "type": "method",
+      "name": "frontier agents",
+      "id": "method:frontier agents"
+    },
+    {
+      "type": "method",
+      "name": "GPT 5.5",
+      "id": "method:gpt 5.5"
+    },
+    {
+      "type": "baseline",
+      "name": "no prediction",
+      "id": "baseline:no prediction"
+    },
+    {
+      "type": "baseline",
+      "name": "ARC-AGI 3",
+      "id": "baseline:arc-agi 3"
+    },
+    {
+      "type": "baseline",
+      "name": "VendingBench",
+      "id": "baseline:vendingbench"
+    },
+    {
+      "type": "task",
+      "name": "long-horizon test-time adaptation",
+      "id": "task:long-horizon test-time adaptation"
+    },
+    {
+      "type": "task",
+      "name": "search",
+      "id": "task:search"
+    },
+    {
+      "type": "task",
+      "name": "memory",
+      "id": "task:memory"
+    },
+    {
+      "type": "task",
+      "name": "reasoning about uncertainty",
+      "id": "task:reasoning about uncertainty"
+    },
+    {
+      "type": "paper",
+      "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
+      "arxiv_id": "2605.15187v1",
+      "abstract": "A bottleneck in learning to understand articulated 3D objects is the lack of large and diverse datasets. In this paper, we propose to leverage large language models (LLMs) to close this gap and generate articulated assets at scale. We reduce the problem of generating an articulated 3D asset to that of writing a program that builds it. We then introduce a new agentic system, Articraft, that writes such programs automatically. We design a programmatic interface and harness to help the LLM do so ef",
+      "id": "paper:2605.15187v1"
+    },
+    {
+      "type": "dataset",
+      "name": "Articraft-10K",
+      "id": "dataset:articraft-10k"
+    },
+    {
+      "type": "method",
+      "name": "Articraft",
+      "id": "method:articraft"
+    },
+    {
+      "type": "method",
+      "name": "large language models (LLMs)",
+      "id": "method:large language models (llms)"
+    },
+    {
+      "type": "baseline",
+      "name": "state-of-the-art articulated-asset generators",
+      "id": "baseline:state-of-the-art articulated-asset generators"
+    },
+    {
+      "type": "baseline",
+      "name": "general-purpose coding agents",
+      "id": "baseline:general-purpose coding agents"
+    },
+    {
+      "type": "task",
+      "name": "articulated 3D asset generation",
+      "id": "task:articulated 3d asset generation"
+    },
+    {
+      "type": "task",
+      "name": "training models of articulated assets",
+      "id": "task:training models of articulated assets"
+    },
+    {
+      "type": "task",
+      "name": "robotics simulation",
+      "id": "task:robotics simulation"
+    },
+    {
+      "type": "task",
+      "name": "virtual reality",
+      "id": "task:virtual reality"
+    },
+    {
+      "type": "paper",
+      "title": "VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction",
+      "arxiv_id": "2605.15186v1",
+      "abstract": "High-quality 3D scene reconstruction has recently advanced toward generalizable feed-forward architectures, enabling the generation of complex environments in a single forward pass. However, despite their strong performance in static scene perception, these models remain limited in responding to dynamic human instructions, which restricts their use in interactive applications. Existing editing methods typically rely on a 2D-lifting strategy, where individual views are edited independently and th",
+      "id": "paper:2605.15186v1"
+    },
+    {
+      "type": "dataset",
+      "name": "DeltaScene Dataset",
+      "id": "dataset:deltascene dataset"
+    },
+    {
+      "type": "method",
+      "name": "VGGT-Edit",
+      "id": "method:vggt-edit"
+    },
+    {
+      "type": "method",
+      "name": "depth-synchronized text injection",
+      "id": "method:depth-synchronized text injection"
+    },
+    {
+      "type": "method",
+      "name": "residual transformation head",
+      "id": "method:residual transformation head"
+    },
+    {
+      "type": "baseline",
+      "name": "2D-lifting baselines",
+      "id": "baseline:2d-lifting baselines"
+    },
+    {
+      "type": "task",
+      "name": "3D scene editing",
+      "id": "task:3d scene editing"
+    },
+    {
+      "type": "task",
+      "name": "3D scene reconstruction",
+      "id": "task:3d scene reconstruction"
+    },
+    {
+      "type": "paper",
+      "title": "Quantitative Video World Model Evaluation for Geometric-Consistency",
+      "arxiv_id": "2605.15185v1",
+      "abstract": "Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video evaluation pipelines rely heavily on human judgment or learned graders, which can be subjective and weakly diagnostic for geometric failures. We introduce PDI-Bench (Perspective Distortion Index), a quantitative framework for auditing geometric coherence in generated videos. Given a generated clip, we ",
+      "id": "paper:2605.15185v1"
+    },
+    {
+      "type": "dataset",
+      "name": "PDI-Dataset",
+      "id": "dataset:pdi-dataset"
+    },
+    {
+      "type": "method",
+      "name": "PDI-Bench",
+      "id": "method:pdi-bench"
+    },
+    {
+      "type": "method",
+      "name": "segmentation",
+      "id": "method:segmentation"
+    },
+    {
+      "type": "method",
+      "name": "point tracking",
+      "id": "method:point tracking"
+    },
+    {
+      "type": "method",
+      "name": "monocular reconstruction",
+      "id": "method:monocular reconstruction"
+    },
+    {
+      "type": "baseline",
+      "name": "Seedance",
+      "id": "baseline:seedance"
+    },
+    {
+      "type": "baseline",
+      "name": "Veo 3.1",
+      "id": "baseline:veo 3.1"
+    },
+    {
+      "type": "baseline",
+      "name": "CogVideoX-3",
+      "id": "baseline:cogvideox-3"
+    },
+    {
+      "type": "baseline",
+      "name": "Sora",
+      "id": "baseline:sora"
+    },
+    {
+      "type": "task",
+      "name": "geometric coherence evaluation",
+      "id": "task:geometric coherence evaluation"
+    },
+    {
+      "type": "task",
+      "name": "video generation evaluation",
+      "id": "task:video generation evaluation"
+    },
+    {
+      "type": "paper",
+      "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "arxiv_id": "2605.15184v1",
+      "abstract": "Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks on behalf of users. Despite the growing adoption of retrieval-augmented generation (RAG) in agentic search systems, existing literature lacks a systematic comparison of how retrieval strategy choice interacts with agent architecture and tool-calling paradigm. Important practical dimensions, includin",
+      "id": "paper:2605.15184v1"
+    },
+    {
+      "type": "dataset",
+      "name": "LongMemEval",
+      "id": "dataset:longmemeval"
+    },
+    {
+      "type": "method",
+      "name": "grep",
+      "id": "method:grep"
+    },
+    {
+      "type": "method",
+      "name": "vector retrieval",
+      "id": "method:vector retrieval"
+    },
+    {
+      "type": "method",
+      "name": "Chronos",
+      "id": "method:chronos"
+    },
+    {
+      "type": "method",
+      "name": "Claude Code",
+      "id": "method:claude code"
+    },
+    {
+      "type": "method",
+      "name": "Codex",
+      "id": "method:codex"
+    },
+    {
+      "type": "method",
+      "name": "Gemini CLI",
+      "id": "method:gemini cli"
+    },
+    {
+      "type": "baseline",
+      "name": "grep-only retrieval",
+      "id": "baseline:grep-only retrieval"
+    },
+    {
+      "type": "baseline",
+      "name": "vector-only retrieval",
+      "id": "baseline:vector-only retrieval"
+    },
+    {
+      "type": "task",
+      "name": "agentic workflows",
+      "id": "task:agentic workflows"
+    },
+    {
+      "type": "task",
+      "name": "information retrieval",
+      "id": "task:information retrieval"
+    },
+    {
+      "type": "task",
+      "name": "LLM evaluation",
+      "id": "task:llm evaluation"
+    },
+    {
+      "type": "paper",
+      "title": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability",
+      "arxiv_id": "2605.15183v1",
+      "abstract": "Mechanistic interpretability aims to break models into meaningful parts; verifying that two such parts implement the same computation is a prerequisite. Existing similarity measures evaluate either empirical behaviour, leaving them blind to out-of-distribution mechanisms, or basis-dependent parameters, meaning they disregard weight-space symmetries. To address these issues for the class of tensor-based models, we introduce a weight-based metric, tensor similarity, that is invariant to such symme",
+      "id": "paper:2605.15183v1"
+    },
+    {
+      "type": "method",
+      "name": "tensor similarity",
+      "id": "method:tensor similarity"
+    },
+    {
+      "type": "baseline",
+      "name": "input-based similarity measures",
+      "id": "baseline:input-based similarity measures"
+    },
+    {
+      "type": "baseline",
+      "name": "existing metrics for functional training dynamics",
+      "id": "baseline:existing metrics for functional training dynamics"
+    },
+    {
+      "type": "task",
+      "name": "mechanistic interpretability",
+      "id": "task:mechanistic interpretability"
+    },
+    {
+      "type": "task",
+      "name": "validating decomposed components of neural networks",
+      "id": "task:validating decomposed components of neural networks"
+    },
+    {
+      "type": "paper",
+      "title": "Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video",
+      "arxiv_id": "2605.15182v1",
+      "abstract": "Camera-controlled video generation has made substantial progress, enabling generated videos to follow prescribed viewpoint trajectories. However, existing methods usually learn camera-specific conditioning through camera encoders, control branches, or attention and positional-encoding modifications, which often require post-training on large-scale camera-annotated videos. Training-free alternatives avoid such post-training, but often shift the cost to test-time optimization or extra denoising-ti",
+      "id": "paper:2605.15182v1"
+    },
+    {
+      "type": "method",
+      "name": "Warp-as-History",
+      "id": "method:warp-as-history"
+    },
+    {
+      "type": "task",
+      "name": "camera-controlled video generation",
+      "id": "task:camera-controlled video generation"
+    },
+    {
+      "type": "paper",
+      "title": "From Plans to Pixels: Learning to Plan and Orchestrate for Open-Ended Image Editing",
+      "arxiv_id": "2605.15181v1",
+      "abstract": "Modern image editing models produce realistic results but struggle with abstract, multi step instructions (e.g., ``make this advertisement more vegetarian-friendly''). Prior agent based methods decompose such tasks but rely on handcrafted pipelines or teacher imitation, limiting flexibility and decoupling learning from actual editing outcomes. We propose an experiential framework for long-horizon image editing, where a planner generates structured atomic decompositions and an orchestrator select",
+      "id": "paper:2605.15181v1"
+    },
+    {
+      "type": "method",
+      "name": "experiential framework",
+      "id": "method:experiential framework"
+    },
+    {
+      "type": "method",
+      "name": "planner",
+      "id": "method:planner"
+    },
+    {
+      "type": "method",
+      "name": "orchestrator",
+      "id": "method:orchestrator"
+    },
+    {
+      "type": "method",
+      "name": "vision language judge",
+      "id": "method:vision language judge"
+    },
+    {
+      "type": "baseline",
+      "name": "single-step baselines",
+      "id": "baseline:single-step baselines"
+    },
+    {
+      "type": "baseline",
+      "name": "rule-based multistep baselines",
+      "id": "baseline:rule-based multistep baselines"
+    },
+    {
+      "type": "task",
+      "name": "long-horizon image editing",
+      "id": "task:long-horizon image editing"
+    },
+    {
+      "type": "paper",
+      "title": "Wormholes and Averaging over N",
+      "arxiv_id": "2605.15180v1",
+      "abstract": "The gravitational path integral produces an asymptotic expansion in $G_N$, a fact which is puzzling in the case of observables that are expected to fluctuate wildly. Wormholes appear to compute ensemble averages of functions of such observables, though in typical constructions of AdS/CFT, there are no parameters to average over except, in some examples, a single integer $N$. We introduce a procedure that we call ``Mellin averaging'' to define a sort of asymptotic average of a function of $N$. We",
+      "id": "paper:2605.15180v1"
+    },
+    {
+      "type": "method",
+      "name": "Mellin averaging",
+      "id": "method:mellin averaging"
+    },
+    {
+      "type": "method",
+      "name": "spectral form factor",
+      "id": "method:spectral form factor"
+    },
+    {
+      "type": "method",
+      "name": "qubit model",
+      "id": "method:qubit model"
+    },
+    {
+      "type": "baseline",
+      "name": "random matrix theory",
+      "id": "baseline:random matrix theory"
+    },
+    {
+      "type": "task",
+      "name": "gravitational path integral analysis",
+      "id": "task:gravitational path integral analysis"
+    },
+    {
+      "type": "task",
+      "name": "analytic continuation in N",
+      "id": "task:analytic continuation in n"
+    },
+    {
+      "type": "paper",
+      "title": "Eradicating Negative Transfer in Multi-Physics Foundation Models via Sparse Mixture-of-Experts Routing",
+      "arxiv_id": "2605.15179v1",
+      "abstract": "Scaling Scientific Machine Learning (SciML) toward universal foundation models is bottlenecked by negative transfer: the simultaneous co-training of disparate partial differential equation (PDE) regimes can induce gradient conflict, unstable optimization, and plasticity loss in dense neural operators. In particular, broadband open-channel fluid dynamics and boundary-dominated porous media flows impose incompatible spectral and geometric demands on a single dense parameter path. We introduce Shod",
+      "id": "paper:2605.15179v1"
+    },
+    {
+      "type": "dataset",
+      "name": "The Well",
+      "id": "dataset:the well"
+    },
+    {
+      "type": "dataset",
+      "name": "Poseidon",
+      "id": "dataset:poseidon"
+    },
+    {
+      "type": "dataset",
+      "name": "PhysiX",
+      "id": "dataset:physix"
+    },
+    {
+      "type": "dataset",
+      "name": "Walrus",
+      "id": "dataset:walrus"
+    },
+    {
+      "type": "method",
+      "name": "Shodh-MoE",
+      "id": "method:shodh-moe"
+    },
+    {
+      "type": "method",
+      "name": "sparse-activated latent transformer",
+      "id": "method:sparse-activated latent transformer"
+    },
+    {
+      "type": "method",
+      "name": "physics-informed autoencoder",
+      "id": "method:physics-informed autoencoder"
+    },
+    {
+      "type": "task",
+      "name": "multi-physics transport",
+      "id": "task:multi-physics transport"
+    },
+    {
+      "type": "task",
+      "name": "latent validation MSE",
+      "id": "task:latent validation mse"
+    },
+    {
+      "type": "task",
+      "name": "decoded physical MSE",
+      "id": "task:decoded physical mse"
+    },
+    {
+      "type": "paper",
+      "title": "SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer",
+      "arxiv_id": "2605.15178v1",
+      "abstract": "We introduce SANA-WM, an efficient 2.6B-parameter open-source world model natively trained for one-minute generation, synthesizing high-fidelity, 720p, minute-scale videos with precise camera control. SANA-WM achieves visual quality comparable to large-scale industrial baselines such as LingBot-World and HY-WorldPlay, while significantly improving efficiency. Four core designs drive our architecture: (1) Hybrid Linear Attention combines frame-wise Gated DeltaNet (GDN) with softmax attention for ",
+      "id": "paper:2605.15178v1"
+    },
+    {
+      "type": "dataset",
+      "name": "public video clips",
+      "id": "dataset:public video clips"
+    },
+    {
+      "type": "method",
+      "name": "SANA-WM",
+      "id": "method:sana-wm"
+    },
+    {
+      "type": "method",
+      "name": "Hybrid Linear Attention",
+      "id": "method:hybrid linear attention"
+    },
+    {
+      "type": "method",
+      "name": "Gated DeltaNet (GDN)",
+      "id": "method:gated deltanet (gdn)"
+    },
+    {
+      "type": "method",
+      "name": "Dual-Branch Camera Control",
+      "id": "method:dual-branch camera control"
+    },
+    {
+      "type": "method",
+      "name": "Two-Stage Generation Pipeline",
+      "id": "method:two-stage generation pipeline"
+    },
+    {
+      "type": "method",
+      "name": "Robust Annotation Pipeline",
+      "id": "method:robust annotation pipeline"
+    },
+    {
+      "type": "baseline",
+      "name": "LingBot-World",
+      "id": "baseline:lingbot-world"
+    },
+    {
+      "type": "baseline",
+      "name": "HY-WorldPlay",
+      "id": "baseline:hy-worldplay"
+    },
+    {
+      "type": "task",
+      "name": "minute-scale video generation",
+      "id": "task:minute-scale video generation"
+    },
+    {
+      "type": "task",
+      "name": "action-following accuracy",
+      "id": "task:action-following accuracy"
+    },
+    {
+      "type": "paper",
+      "title": "Matching higher-dimensional operators at finite temperature for general models",
+      "arxiv_id": "2605.15176v1",
+      "abstract": "High-temperature dimensional reduction provides a systematic effective field theory framework for studying finite-temperature thermodynamics and cosmological phase transitions. While the matching of super-renormalizable operators in the resulting three-dimensional effective theories is well established, the matching of higher-dimensional operators has recently been reinvigorated. These operators become phenomenologically relevant in strong first-order phase transitions where they quantify the co",
+      "id": "paper:2605.15176v1"
+    },
+    {
+      "type": "dataset",
+      "name": "Scalar-Yukawa model",
+      "id": "dataset:scalar-yukawa model"
+    },
+    {
+      "type": "dataset",
+      "name": "hot QCD",
+      "id": "dataset:hot qcd"
+    },
+    {
+      "type": "dataset",
+      "name": "Standard Model higher-dimensional operators",
+      "id": "dataset:standard model higher-dimensional operators"
+    },
+    {
+      "type": "method",
+      "name": "Dimensional Reduction algorithm (DRalgo)",
+      "id": "method:dimensional reduction algorithm (dralgo)"
+    },
+    {
+      "type": "task",
+      "name": "matching higher-dimensional operators",
+      "id": "task:matching higher-dimensional operators"
+    },
+    {
+      "type": "task",
+      "name": "finite-temperature thermodynamics",
+      "id": "task:finite-temperature thermodynamics"
+    },
+    {
+      "type": "task",
+      "name": "cosmological phase transitions",
+      "id": "task:cosmological phase transitions"
+    },
+    {
+      "type": "paper",
+      "title": "OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation",
+      "arxiv_id": "2605.15177v1",
+      "abstract": "Test-time compute scaling is a primary axis for improving LLM reasoning. Existing methods primarily scale depth by extending a single reasoning trace. Scaling breadth by sampling multiple candidates in parallel is straightforward, but introduces a selection bottleneck: choosing the best candidate without a ground-truth verifier, since pointwise LLM judging is noisy and biased. To address this, we introduce OpenDeepThink, a population-based test-time compute framework that selects via pairwise Br",
+      "id": "paper:2605.15177v1"
+    },
+    {
+      "type": "dataset",
+      "name": "CF-73",
+      "id": "dataset:cf-73"
+    },
+    {
+      "type": "method",
+      "name": "OpenDeepThink",
+      "id": "method:opendeepthink"
+    },
+    {
+      "type": "method",
+      "name": "Bradley\u2013Terry comparison",
+      "id": "method:bradley\u2013terry comparison"
+    },
+    {
+      "type": "baseline",
+      "name": "o1",
+      "id": "baseline:o1"
+    },
+    {
+      "type": "baseline",
+      "name": "DeepSeek-R1",
+      "id": "baseline:deepseek-r1"
+    },
+    {
+      "type": "baseline",
+      "name": "Best-of-N sampling",
+      "id": "baseline:best-of-n sampling"
+    },
+    {
+      "type": "baseline",
+      "name": "Self-refinement methods",
+      "id": "baseline:self-refinement methods"
+    },
+    {
+      "type": "task",
+      "name": "mathematical reasoning",
+      "id": "task:mathematical reasoning"
+    },
+    {
+      "type": "task",
+      "name": "competitive programming",
+      "id": "task:competitive programming"
+    },
+    {
+      "type": "task",
+      "name": "agentic benchmarks",
+      "id": "task:agentic benchmarks"
+    },
+    {
+      "type": "paper",
+      "title": "Detecting the Axion-Photon Conversion Background",
+      "arxiv_id": "2605.15175v1",
+      "abstract": "The potential to detect axion dark matter through astrophysical processes has shown high promise in recent years. We therefore expand on previous work studying the axion-to-photon conversion efficacy of neutron stars and the interstellar medium (ISM) in this endeavor, respectively. For neutron stars (NS), we examine the possibility of a background signal emanating from all NS magnetospheres in the galaxy. Using a heuristic Galactic model, we find a significant background signal emanating from su",
+      "id": "paper:2605.15175v1"
+    },
+    {
+      "type": "method",
+      "name": "heuristic Galactic model",
+      "id": "method:heuristic galactic model"
+    },
+    {
+      "type": "method",
+      "name": "higher order statistics",
+      "id": "method:higher order statistics"
+    },
+    {
+      "type": "method",
+      "name": "statistical techniques",
+      "id": "method:statistical techniques"
+    },
+    {
+      "type": "task",
+      "name": "detecting axion dark matter",
+      "id": "task:detecting axion dark matter"
+    },
+    {
+      "type": "task",
+      "name": "radio imaging of Galactic Center",
+      "id": "task:radio imaging of galactic center"
+    },
+    {
+      "type": "paper",
+      "title": "Hybrid Sketching Methods for Dynamic Connectivity on Sparse Graphs",
+      "arxiv_id": "2605.15173v1",
+      "abstract": "Dynamic connectivity is a fundamental dynamic graph problem, and recent algorithmic breakthroughs on dynamic graph sketching have reshaped what is theoretically possible: by encoding the graph as per-vertex linear sketches, these algorithms solve dynamic connectivity in only $\u0398(V \\log^2 V)$ space, independent of the number of edges,outperforming lossless $\u0398(V+E)$-space structures that grow as the graph becomes denser. Prior to this work, no practical dynamic connectivity algorithm has been able ",
+      "id": "paper:2605.15173v1"
+    },
+    {
+      "type": "dataset",
+      "name": "real-world graphs",
+      "id": "dataset:real-world graphs"
+    },
+    {
+      "type": "dataset",
+      "name": "synthetic dense graphs",
+      "id": "dataset:synthetic dense graphs"
+    },
+    {
+      "type": "method",
+      "name": "HybridSCALE",
+      "id": "method:hybridscale"
+    },
+    {
+      "type": "method",
+      "name": "BalloonSketch",
+      "id": "method:balloonsketch"
+    },
+    {
+      "type": "baseline",
+      "name": "state-of-the-art lossless baseline",
+      "id": "baseline:state-of-the-art lossless baseline"
+    },
+    {
+      "type": "task",
+      "name": "dynamic connectivity",
+      "id": "task:dynamic connectivity"
+    },
+    {
+      "type": "task",
+      "name": "graph sketching",
+      "id": "task:graph sketching"
+    },
+    {
+      "type": "paper",
+      "title": "MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs",
+      "arxiv_id": "2605.15172v1",
+      "abstract": "Backdoor attacks pose a serious security threat to large language models (LLMs), which are increasingly deployed as general-purpose assistants in safety- and privacy-critical applications. Existing LLM backdoors rely primarily on content-based triggers, requiring explicit modification of the input text. In this work, we show that this assumption is unnecessary and limiting. We introduce MetaBackdoor, a new class of backdoor attacks that exploits positional information as the trigger, without mod",
+      "id": "paper:2605.15172v1"
+    },
+    {
+      "type": "method",
+      "name": "MetaBackdoor",
+      "id": "method:metabackdoor"
+    },
+    {
+      "type": "task",
+      "name": "backdoor attack evaluation",
+      "id": "task:backdoor attack evaluation"
+    },
+    {
+      "type": "task",
+      "name": "security threat assessment in LLMs",
+      "id": "task:security threat assessment in llms"
+    }
+  ],
+  "links": [
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15198v1",
+      "target": "method:atlas"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15198v1",
+      "target": "method:latent-anchored grpo (la-grpo)"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15198v1",
+      "target": "task:visual reasoning"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15197v1",
+      "target": "method:gauge-invariant formation mechanism"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15197v1",
+      "target": "method:tensor perturbations"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15197v1",
+      "target": "method:semi-analytical formulae for tensor-induced density spectrum"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15197v1",
+      "target": "task:primordial black hole formation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15197v1",
+      "target": "task:first-order phase transition analysis"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15197v1",
+      "target": "task:domain wall analysis"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15196v1",
+      "target": "dataset:inter4k"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15196v1",
+      "target": "dataset:webvid"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15196v1",
+      "target": "dataset:large motion"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15196v1",
+      "target": "dataset:vbench i2v"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15196v1",
+      "target": "method:refdecoder"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15196v1",
+      "target": "method:latent diffusion models"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15196v1",
+      "target": "method:reference-conditioned video vae decoder"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15196v1",
+      "target": "baseline:unconditional baselines"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15196v1",
+      "target": "baseline:wan 2.1"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15196v1",
+      "target": "baseline:videovae+"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15196v1",
+      "target": "task:video generation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15196v1",
+      "target": "task:style transfer"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15196v1",
+      "target": "task:video editing refinement"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15195v1",
+      "target": "dataset:sintel"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15195v1",
+      "target": "method:vggt-$\u03c9$"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15195v1",
+      "target": "method:self-supervised learning protocol"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15195v1",
+      "target": "method:register attention"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15195v1",
+      "target": "baseline:vggt"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15195v1",
+      "target": "task:reconstruction of static and dynamic scenes"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15195v1",
+      "target": "task:camera estimation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15195v1",
+      "target": "task:vision-language-action models"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15194v1",
+      "target": "method:qca-refined realization"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15194v1",
+      "target": "method:lattice model for weakly integral fusion categories"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15192v1",
+      "target": "method:analytical analysis of inflationary models"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15192v1",
+      "target": "method:parametrization of background by \u03f5(n) \u221d1/n p"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15190v1",
+      "target": "method:real-time autoregressive video extrapolation network (raven)"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15190v1",
+      "target": "method:consistency-model group relative policy optimization (cm-grpo)"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15190v1",
+      "target": "baseline:causal video distillation baselines"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15190v1",
+      "target": "task:video generation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15190v1",
+      "target": "task:video extrapolation"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15188v1",
+      "target": "dataset:futuresim"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15188v1",
+      "target": "method:frontier agents"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15188v1",
+      "target": "method:gpt 5.5"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15188v1",
+      "target": "baseline:no prediction"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15188v1",
+      "target": "baseline:arc-agi 3"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15188v1",
+      "target": "baseline:vendingbench"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15188v1",
+      "target": "task:long-horizon test-time adaptation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15188v1",
+      "target": "task:search"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15188v1",
+      "target": "task:memory"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15188v1",
+      "target": "task:reasoning about uncertainty"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15187v1",
+      "target": "dataset:articraft-10k"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15187v1",
+      "target": "method:articraft"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15187v1",
+      "target": "method:large language models (llms)"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15187v1",
+      "target": "baseline:state-of-the-art articulated-asset generators"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15187v1",
+      "target": "baseline:general-purpose coding agents"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15187v1",
+      "target": "task:articulated 3d asset generation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15187v1",
+      "target": "task:training models of articulated assets"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15187v1",
+      "target": "task:robotics simulation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15187v1",
+      "target": "task:virtual reality"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15186v1",
+      "target": "dataset:deltascene dataset"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15186v1",
+      "target": "method:vggt-edit"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15186v1",
+      "target": "method:depth-synchronized text injection"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15186v1",
+      "target": "method:residual transformation head"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15186v1",
+      "target": "baseline:2d-lifting baselines"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15186v1",
+      "target": "task:3d scene editing"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15186v1",
+      "target": "task:3d scene reconstruction"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15185v1",
+      "target": "dataset:pdi-dataset"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15185v1",
+      "target": "method:pdi-bench"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15185v1",
+      "target": "method:segmentation"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15185v1",
+      "target": "method:point tracking"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15185v1",
+      "target": "method:monocular reconstruction"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15185v1",
+      "target": "baseline:seedance"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15185v1",
+      "target": "baseline:veo 3.1"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15185v1",
+      "target": "baseline:cogvideox-3"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15185v1",
+      "target": "baseline:sora"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15185v1",
+      "target": "task:geometric coherence evaluation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15185v1",
+      "target": "task:video generation evaluation"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15184v1",
+      "target": "dataset:longmemeval"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15184v1",
+      "target": "method:grep"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15184v1",
+      "target": "method:vector retrieval"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15184v1",
+      "target": "method:chronos"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15184v1",
+      "target": "method:claude code"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15184v1",
+      "target": "method:codex"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15184v1",
+      "target": "method:gemini cli"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15184v1",
+      "target": "baseline:grep-only retrieval"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15184v1",
+      "target": "baseline:vector-only retrieval"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15184v1",
+      "target": "task:agentic workflows"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15184v1",
+      "target": "task:information retrieval"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15184v1",
+      "target": "task:llm evaluation"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15183v1",
+      "target": "method:tensor similarity"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15183v1",
+      "target": "baseline:input-based similarity measures"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15183v1",
+      "target": "baseline:existing metrics for functional training dynamics"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15183v1",
+      "target": "task:mechanistic interpretability"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15183v1",
+      "target": "task:validating decomposed components of neural networks"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15182v1",
+      "target": "method:warp-as-history"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15182v1",
+      "target": "task:camera-controlled video generation"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15181v1",
+      "target": "method:experiential framework"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15181v1",
+      "target": "method:planner"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15181v1",
+      "target": "method:orchestrator"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15181v1",
+      "target": "method:vision language judge"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15181v1",
+      "target": "baseline:single-step baselines"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15181v1",
+      "target": "baseline:rule-based multistep baselines"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15181v1",
+      "target": "task:long-horizon image editing"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15180v1",
+      "target": "method:mellin averaging"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15180v1",
+      "target": "method:spectral form factor"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15180v1",
+      "target": "method:qubit model"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15180v1",
+      "target": "baseline:random matrix theory"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15180v1",
+      "target": "task:gravitational path integral analysis"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15180v1",
+      "target": "task:analytic continuation in n"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15179v1",
+      "target": "dataset:the well"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15179v1",
+      "target": "dataset:poseidon"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15179v1",
+      "target": "dataset:physix"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15179v1",
+      "target": "dataset:walrus"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15179v1",
+      "target": "method:shodh-moe"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15179v1",
+      "target": "method:sparse-activated latent transformer"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15179v1",
+      "target": "method:physics-informed autoencoder"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15179v1",
+      "target": "task:multi-physics transport"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15179v1",
+      "target": "task:latent validation mse"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15179v1",
+      "target": "task:decoded physical mse"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15178v1",
+      "target": "dataset:public video clips"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15178v1",
+      "target": "method:sana-wm"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15178v1",
+      "target": "method:hybrid linear attention"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15178v1",
+      "target": "method:gated deltanet (gdn)"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15178v1",
+      "target": "method:dual-branch camera control"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15178v1",
+      "target": "method:two-stage generation pipeline"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15178v1",
+      "target": "method:robust annotation pipeline"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15178v1",
+      "target": "baseline:lingbot-world"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15178v1",
+      "target": "baseline:hy-worldplay"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15178v1",
+      "target": "task:minute-scale video generation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15178v1",
+      "target": "task:action-following accuracy"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15176v1",
+      "target": "dataset:scalar-yukawa model"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15176v1",
+      "target": "dataset:hot qcd"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15176v1",
+      "target": "dataset:standard model higher-dimensional operators"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15176v1",
+      "target": "method:dimensional reduction algorithm (dralgo)"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15176v1",
+      "target": "task:matching higher-dimensional operators"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15176v1",
+      "target": "task:finite-temperature thermodynamics"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15176v1",
+      "target": "task:cosmological phase transitions"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15177v1",
+      "target": "dataset:cf-73"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15177v1",
+      "target": "method:opendeepthink"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15177v1",
+      "target": "method:bradley\u2013terry comparison"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15177v1",
+      "target": "baseline:o1"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15177v1",
+      "target": "baseline:deepseek-r1"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15177v1",
+      "target": "baseline:best-of-n sampling"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15177v1",
+      "target": "baseline:self-refinement methods"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15177v1",
+      "target": "task:mathematical reasoning"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15177v1",
+      "target": "task:competitive programming"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15177v1",
+      "target": "task:agentic benchmarks"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15175v1",
+      "target": "method:heuristic galactic model"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15175v1",
+      "target": "method:higher order statistics"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15175v1",
+      "target": "method:statistical techniques"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15175v1",
+      "target": "task:detecting axion dark matter"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15175v1",
+      "target": "task:radio imaging of galactic center"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15173v1",
+      "target": "dataset:real-world graphs"
+    },
+    {
+      "relation": "uses_dataset",
+      "source": "paper:2605.15173v1",
+      "target": "dataset:synthetic dense graphs"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15173v1",
+      "target": "method:hybridscale"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15173v1",
+      "target": "method:balloonsketch"
+    },
+    {
+      "relation": "compares_against",
+      "source": "paper:2605.15173v1",
+      "target": "baseline:state-of-the-art lossless baseline"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15173v1",
+      "target": "task:dynamic connectivity"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15173v1",
+      "target": "task:graph sketching"
+    },
+    {
+      "relation": "proposes_method",
+      "source": "paper:2605.15172v1",
+      "target": "method:metabackdoor"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15172v1",
+      "target": "task:backdoor attack evaluation"
+    },
+    {
+      "relation": "evaluated_on",
+      "source": "paper:2605.15172v1",
+      "target": "task:security threat assessment in llms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# API keys — never commit these
+.env
+*.env
+
+# ChromaDB is large and re-creatable from papers.json
+data/chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# NOTE: papers.json, questions.json, rag_comparison_results.csv and
+# visualizations/output/ are intentionally NOT ignored so Streamlit
+# Cloud can display the dashboard without re-running the experiment.
