@@ -156,6 +156,24 @@ python visualizations/charts.py
 
 ---
 
+## Results Preview
+
+> Screenshots from an actual experiment run across all 4 architectures.
+
+### Faithfulness Comparison
+![Faithfulness Bar Chart](assets/faithfulness_bar.png)
+
+### Radar Chart — All Metrics
+![Radar Chart](assets/radar_chart.png)
+
+### Latency Comparison
+![Latency Bar Chart](assets/latency_bar.png)
+
+### Per-Question Faithfulness Heatmap
+![Faithfulness Heatmap](assets/faithfulness_heatmap.png)
+
+---
+
 ## Evaluation Metrics
 
 ### RAGAS Metrics (0–1, higher is better)
